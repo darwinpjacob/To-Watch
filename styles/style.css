@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: rgb(33, 11, 53);
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100px;
+    min-width: 300px;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+
+#newShows{
+    position: relative;
+    padding: 30px 20px;
+}
+
+#newShows input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: rgb(184, 7, 40);
+    caret-color: greenyellow;
+    font-weight: 400;
+    position: relative;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid rgb(140, 17, 87);
+}
+
+#newShows input:focus{
+    outline: none;
+    border-color: seagreen;
+    transition: ease-in-out 0.3s;
+}
+
+#newShows button{
+    position: relative;
+    float: right;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #0b55b6;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+#newShows button:hover{
+    opacity: 1;
+    transition: ease-in-out 0.3s;
+}
+
+#tasks{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: beige;
+    padding: 6px 20px;
+}
+
+.task{
+    border-radius: 5px;
+    border: 1px solid #939639;
+    cursor: pointer;
+    background-color: aquamarine;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task span{
+    font-family : 'Arial Narrow Bold', cursive;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.task button{
+    background-color: rgb(47, 8, 223);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
+
+.task button:hover{
+    background-color: rgb(255, 0, 0);
+    transition: ease-in-out 0.1s;
+}
